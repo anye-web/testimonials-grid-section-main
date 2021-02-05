@@ -1,0 +1,16 @@
+.section-content {
+    grid-template-columns: 1fr;
+}
+
+@media (max-width: 500px) {
+    .left-content {
+        grid-template-columns: 1fr;
+    }
+    .first-testity,
+    .fourth-testity {
+        grid-column: 1;
+    }
+    .first-testity {
+        background-position: 150px 50px;
+    }
+}
